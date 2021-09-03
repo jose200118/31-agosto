@@ -8,4 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class instructor extends Model
 {
     use HasFactory;
+    protected $table ='instructor';
+    protected $prymaryKey ='id';
+    protected $fillable = [
+'nombre',
+'',
+'idjornada',
+    ];
 }
